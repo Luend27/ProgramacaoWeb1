@@ -1,0 +1,45 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    color: #2b2b80;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+hr {
+    border: 1px solid #2b2b80;
+    margin-bottom: 20px;
+}
+
+.quadrado {
+    list-style-type: square;
+}
+
+.circulo-oco {
+    list-style-type: circle;
+}
+
+.disco {
+    list-style-type: disc;
+}
+
+.imagem {
+    list-style-image: url(/Atividades-com-Imagens/imagens_lista-css-2-bimestre/imagens/seta_azul.gif);
+}
+
+.numeros {
+    list-style-type: decimal;
+}
+
+.romano {
+    list-style-type: lower-roman;
+}
+
+.minuscula {
+    list-style-type: lower-alpha;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+}

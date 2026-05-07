@@ -1,0 +1,48 @@
+﻿body {
+    background-image: url(/Atividades-com-Imagens/final_fantasy/final_fantasy/fundo_final.jpg);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: beige;
+}
+
+.cabecalho {
+    background-color: beige;
+    color: #000;
+    text-align: right;
+    padding: 5px 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.linha-divisoria {
+    margin-top: 30px;
+    padding-top: 0.5px;
+    border: 0;
+    height: 1px;
+    background-color: #fff;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+.imagem-poster {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.texto-descricao {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.rodape {
+    background-color: beige;
+    color: #000;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+}
