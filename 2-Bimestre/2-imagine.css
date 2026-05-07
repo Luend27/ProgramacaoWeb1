@@ -1,0 +1,22 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    color: maroon;
+}
+
+p {
+    font-size: 12px;
+}
+
+p.centro {
+    text-align: center;
+}
+
+p.direita {
+    text-align: right;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: maroon;
+}
