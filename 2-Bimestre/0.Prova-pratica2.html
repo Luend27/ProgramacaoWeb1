@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designzz</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #c0c0c0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 55%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .nav, .slide, .footer {
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .nav {
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .nav a, .nav-2 a {
+            font-size: 14px;
+            margin: 0 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .slide img {
+            width: 100%;
+            display: block;
+        }
+
+        .cards-group {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .cards {
+            width: 180px;
+            padding: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .cards img {
+            width: 100%;
+        }
+
+        .cards p {
+            font-size: 12px;
+            margin: 0;
+            text-align: justify;
+        }
+
+        .cards a {
+            display: block;
+            margin-top: 6px;
+            font-size: 12px;
+            color: black;
+            text-decoration: none;
+            text-align: right;
+        }
+
+        .footer {
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .credits a {
+            font-size: 12px;
+            color: black;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <img src="imagens-prova/logo_designzz-removebg-preview.png" alt="Logo Designzzz">
+        </div>
+
+        <nav class="nav">
+            <a href="">Home</a>
+            <a href="">Portfolio</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+        </nav>
+
+        <div class="slide">
+            <img src="imagens-prova/gallery.jpg" alt="Gallery">
+        </div>
+
+        <div class="cards-group">
+            <div class="cards">
+                <img src="imagens-prova/casa1.jpg" alt="Casa">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aliquam blandit neque sed dolor vehicula, quis placerat ipsum dapibus. 
+                    Nunc a lacus arcu. Aliquam et dui nec leo ultricies facilisis. 
+                    Fusce in mauris a quam commodo dictum mollis vitae metus. Maecenas sem velit, 
+                    ultrices sit amet feugiat a, ultricies in ex. Etiam scelerisque vitae nulla et eleifend. 
+                    Aenean sollicitudin urna at sodales
+                </p>
+                <a href="">more...</a>
+            </div>
+            <div class="cards">
+                <img src="imagens-prova/carro1.jpg" alt="Carro">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aliquam blandit neque sed dolor vehicula, quis placerat ipsum dapibus. 
+                    Nunc a lacus arcu. Aliquam et dui nec leo ultricies facilisis. 
+                    Fusce in mauris a quam commodo dictum mollis vitae metus. Maecenas sem velit, 
+                    ultrices sit amet feugiat a, ultricies in ex. Etiam scelerisque vitae nulla et eleifend. 
+                    Aenean sollicitudin urna at sodales
+                </p>
+                <a href="">more...</a>
+            </div>
+            <div class="cards">
+                <img src="imagens-prova/lar1.jpg" alt="Lar">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aliquam blandit neque sed dolor vehicula, quis placerat ipsum dapibus. 
+                    Nunc a lacus arcu. Aliquam et dui nec leo ultricies facilisis. 
+                    Fusce in mauris a quam commodo dictum mollis vitae metus. Maecenas sem velit, 
+                    ultrices sit amet feugiat a, ultricies in ex. Etiam scelerisque vitae nulla et eleifend. 
+                    Aenean sollicitudin urna at sodales
+                </p>
+                <a href="">more...</a>
+            </div>
+            <div class="cards">
+                <img src="imagens-prova/floresta1.jpg" alt="Floresta">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aliquam blandit neque sed dolor vehicula, quis placerat ipsum dapibus. 
+                    Nunc a lacus arcu. Aliquam et dui nec leo ultricies facilisis. 
+                    Fusce in mauris a quam commodo dictum mollis vitae metus. Maecenas sem velit, 
+                    ultrices sit amet feugiat a, ultricies in ex. Etiam scelerisque vitae nulla et eleifend. 
+                    Aenean sollicitudin urna at sodales
+                </p>
+                <a href="">more...</a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="credits">
+                <a href="">Terms of Service</a>
+                <a href="">Privacy Policy</a>
+                <a href="">&copy; 2009 Designzzz</a>
+            </div>
+            <nav class="nav-2">
+                <a href="">Home</a>
+                <a href="">Portfolio</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+            </nav>
+        </footer>
+
+    </div>
+</body>
+</html>
